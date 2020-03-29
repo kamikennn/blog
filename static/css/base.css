@@ -1,42 +1,60 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
-}
-
-header {
-    border-bottom: 1px solid #999;
+  }
+  
+  header {
+    border-bottom: 1px solid rgb(0, 95, 102);
     margin-bottom: 2rem;
     display: flex;
-}
-
-header h1 a {
-    color: rgba(13, 196, 22, 0.767);
+  }
+  
+  header h1 a {
+    color: rgba(0, 0, 0, 0.699);
     text-decoration: none;
-}
-.nav-left{
+  }
+  
+  .nav-left {
+    margin-right: auto;
+    margin-left: 10rem;
+  }
+  
+  .nav-right {
     display: flex;
     padding-top: 2rem;
-}
+  }
 
-.post-entry{
+  .post {
+    text-align: center;
+  }
+  
+  .post-entry {
     margin-bottom: 2rem;
-}
-
-.post-entry h2{
+    margin-right: 10rem;
+    margin-left: 10rem;
+  }
+  
+  .post-entry h2 {
     margin: 0.5rem 0;
-}
-
-.post-entry h2 a,
-.post-entry h2 a:visited{
-    color: blue;
+  }
+  
+  .post-entry h2 a,
+  .post-entry h2 a:visited {
+    color: rgba(17, 0, 255, 0.336);
     text-decoration: none;
-}
-
-.post-entry p {
+  }
+  
+  .post-entry p {
     margin: 0;
     font-weight: 400;
-}
-
-.post-entry h2 a:hover {
-    color: rgb(255, 0, 106);
+  }
+  
+  .post-entry h2 a:hover {
+    color: red;
+  }
+  
+  body {background-image: url("IMG_1098.jpg"); 
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */              
+    background-position:center top;                     /* 画像の表示位置を指定  */
+    background-size:cover;                               /* 画像のサイズを指定    */
 }
